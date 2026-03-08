@@ -1,0 +1,33 @@
+{
+  "_react-vendor-DvBOr_aF.js": {
+    "file": "assets/react-vendor-DvBOr_aF.js",
+    "name": "react-vendor"
+  },
+  "_ui-vendor-C7jSdXRo.js": {
+    "file": "assets/ui-vendor-C7jSdXRo.js",
+    "name": "ui-vendor",
+    "imports": [
+      "_react-vendor-DvBOr_aF.js"
+    ]
+  },
+  "index.html": {
+    "file": "assets/index-Cn9lY5HV.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_react-vendor-DvBOr_aF.js",
+      "_ui-vendor-C7jSdXRo.js"
+    ],
+    "css": [
+      "assets/index-WKjPVdNZ.css"
+    ],
+    "assets": [
+      "assets/logo-header-BZVryyad.svg"
+    ]
+  },
+  "src/assets/logo-header.svg": {
+    "file": "assets/logo-header-BZVryyad.svg",
+    "src": "src/assets/logo-header.svg"
+  }
+}
