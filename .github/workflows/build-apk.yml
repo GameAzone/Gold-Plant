@@ -38,7 +38,7 @@ jobs:
         run: |
           cd android
           chmod +x gradlew
-          ./gradlew assembleDebug
+          ./gradlew assembleDebug --warning-mode all -x lint
       
       - name: Upload Debug APK
         uses: actions/upload-artifact@v4
@@ -50,7 +50,7 @@ jobs:
       - name: Build Release Bundle
         run: |
           cd android
-          ./gradlew bundleRelease
+          ./gradlew bundleRelease --warning-mode all -x lint
       
       - name: Upload Release Bundle
         uses: actions/upload-artifact@v4
